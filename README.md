@@ -1,4 +1,4 @@
-# demojs
+# otc-demo
 
 ## Project setup
 ```
