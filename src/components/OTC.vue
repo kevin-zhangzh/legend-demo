@@ -1,14 +1,14 @@
 <template>
   <div class="otc">
-    <legend-trade-full
+    <legend-trade
         mode="sandbox"
         :signature="signature"
         :timestamp="timestamp"
         :app-id="appId"
         :app-key="appKey"
         :app-url="appUrl"
-        app-email="xaber@ever.vision"
-    ></legend-trade-full>
+        app-email="kevin@ever.vision"
+    ></legend-trade>
   </div>
 </template>
 
@@ -30,10 +30,10 @@ export default {
   },
   mounted() {
     this.updateInfo()
-    let script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://www.legendtrading.com/jssdk-v3/legend-trade-full.min.js';
-    document.body.appendChild(script);
+    // let script = document.createElement('script');
+    // script.type = 'text/javascript';
+    // script.src = 'https://www.legendtrading.com/jssdk-v3/legend-trade-full.min.js';
+    // document.body.appendChild(script);
 
   },
 
